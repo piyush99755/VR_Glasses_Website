@@ -292,7 +292,6 @@ section.newsletter input[type=email]::placeholder {
 
 section.newsletter button[type=submit] {
     background-color:#614DC9;
-    border-radius:1px solid #614DC9;
     border-radius: 0 25px 25px 0;
     height:48px;
     padding:0 36px;
@@ -300,6 +299,63 @@ section.newsletter button[type=submit] {
     font-size:14px;
     line-height:21px;
     text-transform: uppercase;
+}
+
+footer {
+    background-color: #3E3E3E;
+    color:white;
+    padding:60px 0;
+    
+
+}
+
+footer .container{
+    display:flex;
+    justify-content:space-between;
+    width: 950px;
+    max-width:100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    width:25%;
+    
+}
+
+footer ul li.list-title{
+    font-weight:400;
+    font-size:20px;
+    line-height:26px;
+    margin-bottom:20px;
+}
+
+footer ul li{
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    margin-bottom: 10px;
+    
+
+}
+footer ul li:last-of-type{
+    margin-bottom:0;
+}
+
+footer ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+section.copyright {
+  text-align:center;
+  padding:18px 0;
+  background-color:#2B2B2B;
+  color:#E0E0E0;
+  font-weight:400;
+  font-size:16px;
+  line-height:22px;
 }
     
 
