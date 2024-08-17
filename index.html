@@ -24,6 +24,7 @@
                     <li><a href="">About Us</a></li>
                     <li><a href="">Promotions</a></li>
                     <li><a href="">Newsletter</a></li>
+                    <li class="menu-icon"><img src="images/menu_icon.png" alt="menu-icon"></li>
                 </ul>
             </nav>
         </div>
@@ -31,7 +32,13 @@
     </header>
 
     <section class="hero">
-        <img src="/images/Hero_Large_Desktop.jpg" alt="hero image- VR Headsets">
+        <picture>
+            <source media="(max-width: 576px )" srcset="images/Hero_Mobile.jpg">
+            <source media="(max-width: 960px )" srcset="images/Hero_Tablet.jpg">
+            <source media="(max-width: 1440px )" srcset="images/Hero_Desktop.jpg">
+
+            <img src="/images/Hero_Large_Desktop.jpg" alt="hero image- VR Headsets">
+        </picture>
 
         <div class="hero-content">
             <div class="container">
