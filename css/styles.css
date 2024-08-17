@@ -642,13 +642,117 @@ section.copyright {
     
 }
 
-/*Styles for mobiles*/
-@media screen and (max-width : 576px) {
+/*Styles for mobiles, max-width used to be 576px*/ 
+@media screen and (max-width : 755px) {
 
     .container {
         width:92%;
         max-width:92%;
     }
+
+    header section.logo{
+        font-size:18px;
+    }
+
+    section.hero .hero-content{
+        position:initial;
+        text-align:center;
+        margin-top:26px;
+    }
+
+    section.hero .container{
+        align-items:center;
+    }
+
+    section.hero h1,
+    section.hero p{
+         margin-bottom:32px;
+    }
+
+    section.hero h1{
+        font-size:32px;
+        line-height:38px;
+        color:black;
+    }
+
+
+    section.hero p{
+        display:none;
+    }
+
+    section.best-sellers .product-slider .container{
+        flex-wrap:wrap;
+    }
+
+    section.best-sellers .product-slider .product {
+        width:100%;
+        margin-bottom:24px;
+    }
+
+    section.best-sellers .product-slider .product:last-of-type {
+        margin-bottom:0;
+    }
+    
+     section.best-sellers .product-slider .product h4{
+          font-size:14px;
+    }
+     
+     section.best-sellers .product-slider .product h3{
+         font-size:20px;
+    }
+     
+    
+     section.best-sellers .product-slider .product span.original-price{
+       font-size:11px;
+       
+     }
+     
+      section.best-sellers .product-slider .product button{
+        height:36px;
+        width:190px;
+        font-size:12px;
+        line-height:18px;
+        max-width:100%;
+     }
+
+     section.newsletter{
+        margin:64px auto;
+        padding:44px 0;
+    }
+
+    section.newsletter input[type=email] {
+        width:210px;
+        
+    }
+    section.newsletter button[type=submit] {
+        
+        padding:0 20px;
+        
+    }
+    
+    footer {
+         padding:48px 0;
+    }
+    
+    footer .container{
+        flex-wrap:wrap;
+        align-items:center;
+    }
+
+    
+    
+    footer ul {
+        width:100%;
+        margin-bottom:32px;
+        text-align:center;
+    }
+
+    footer ul:last-of-type{
+        margin-bottom:0;
+    }
+    
+    
+    
     
 }
     
